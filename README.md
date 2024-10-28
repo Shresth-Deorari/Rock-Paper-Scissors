@@ -4,21 +4,13 @@ This is a simple Rock-Paper-Scissors game implemented with HTML, CSS, and JavaSc
 
 --- 
 
-## Screenshots
-
-![Game Screen](Screenshot.png)
-
----
-
 ## Table of Contents
 1. [Project Overview](#project-overview)
-2. [Features](#features)
-3. [Setup](#setup)
-4. [How to Play](#how-to-play)
-5. [Project Structure](#project-structure)
-6. [Code Walkthrough](#code-walkthrough)
-7. [Screenshots](#screenshots)
-8. [License](#license)
+2. [Screenshots](#screenshots)
+3. [Features](#features)
+4. [Setup](#setup)
+5. [How to Play](#how-to-play)
+6. [Project Structure](#project-structure)
 
 ---
 
@@ -32,6 +24,11 @@ This Rock-Paper-Scissors game is a web-based app that allows the player to:
 
 ---
 
+## Screenshots
+
+![Game Screen](Screenshot.png)
+
+---
 ## Features
 
 - **User vs Computer gameplay**: User selects an option, and the computer generates a random response.
