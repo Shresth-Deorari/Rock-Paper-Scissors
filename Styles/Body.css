@@ -1,0 +1,106 @@
+body{
+    background-color: black;
+    color:white;
+    font-family: Roboto, Arial;
+}
+
+.UI{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.buttons{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rock-emoji{
+    width: 90px;
+}
+
+.rock-button{
+    width: 180px;
+    height: 180px;
+    background-color: rgba(0, 0, 0, 0);
+    border: solid;
+    border-color: white;
+    border-radius: 100px;
+    border-width: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.paper-emoji{
+    width: 90px;
+}
+
+.paper-button{
+    width: 180px;
+    height: 180px;
+    background-color: rgba(0, 0, 0, 0);
+    border: solid;
+    border-color: white;
+    border-radius: 100px;
+    border-width: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.scissor-emoji{
+    width: 90px;
+}
+
+.scissor-button{
+    width: 180px;
+    height: 180px;
+    background-color: rgba(0, 0, 0, 0);
+    border: solid;
+    border-color: white;
+    border-radius: 100px;
+    border-width: 5px;
+    cursor: pointer;
+}
+
+.result-display{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.result-emoji{
+    width: 50px;
+    background-color: black;
+    margin-left: 10px;
+    margin-left: 10px;
+}
+
+.turn-display{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.score-display{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.reset-button{
+    border: solid;
+    border-color: white;
+    background-color: black;
+    color: white;
+    width: 130px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+    cursor: pointer;
+}
