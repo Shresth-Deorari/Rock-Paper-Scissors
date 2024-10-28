@@ -2,6 +2,12 @@
 
 This is a simple Rock-Paper-Scissors game implemented with HTML, CSS, and JavaScript. The game lets you play against the computer, keeps track of your score, and allows you to reset it.
 
+--- 
+
+## Screenshots
+
+![Game Screen](Screenshot.png)
+
 ---
 
 ## Table of Contents
@@ -79,14 +85,7 @@ This Rock-Paper-Scissors game is a web-based app that allows the player to:
 - `Images/` - Folder with game icons (rock, paper, scissors images).
 - `JavaScript/` - Folder containing the JavaScript logic.
   - `javascript.js` - Main game logic and event handling.
-
----
-
-## Screenshots
-
-[Game Screen](Screenshot.png)
-
-
+  - 
 ---
 
 **Note**: Make sure to replace `"Images/rock-emoji.png"`, `"Images/paper-emoji.png"`, and `"Images/scissor-emoji.png"` in the JavaScript file with the actual paths to your images to ensure they display correctly in the game.
