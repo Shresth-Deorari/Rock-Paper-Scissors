@@ -1,4 +1,6 @@
 let score = JSON.parse(localStorage.getItem("score"))||{wins:0,loses:0,ties:0};
+let autoplayToggle = false;
+let AutoplayId;
 
 document.querySelector(".score-display").innerHTML = `Wins : ${score.wins}, Loses : ${score.loses}, Ties : ${score.ties}`;
 
@@ -81,3 +83,21 @@ function reset(){
     displayScore();
     localStorage.setItem('score', JSON.stringify(score));
     }
+
+function autoplay(){
+    if(!autoplayToggle){
+        document.querySelector('.autoplay-button').innerHTML = `Stop Autoplay`;
+        AutoplayId = setInterval(function(){
+            let you = getNumber();
+            if(you=='Rock')rock();
+            else if(you=='Paper')paper();
+            else scissor();
+        }, 1000);
+        autoplayToggle = true;
+    }
+    else{
+        document.querySelector('.autoplay-button').innerHTML = `Autoplay`;
+        clearInterval(AutoplayId);
+        autoplayToggle = false;
+    }
+}
